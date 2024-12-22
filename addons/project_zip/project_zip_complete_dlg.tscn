@@ -25,13 +25,15 @@ theme_override_constants/separation = 20
 [node name="ZipCompleteLabel" type="Label" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
 theme_override_font_sizes/font_size = 24
-text = "Zip complete.  Zip file is contained in"
+text = "Zip file created."
+horizontal_alignment = 1
 
 [node name="ZipFileLocationLabel" type="Label" parent="MarginContainer/VBoxContainer"]
 unique_name_in_owner = true
 layout_mode = 2
 theme_override_font_sizes/font_size = 24
 text = "user://"
+horizontal_alignment = 1
 
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer/VBoxContainer"]
 layout_mode = 2
